@@ -9,20 +9,49 @@
 }
 
 :root{
+    --cor1: rgba(242, 193, 101, 1);
+    --cor2: rgba(216, 159, 88, 1);
+    --cor3: rgba(216, 140, 73, 1);
+    --cor4: rgba(165, 109, 59, 1);
+    --cor5: rgba(114, 66, 37, 1);
+}
+
+:root{
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-maquina: 'Amatic SC', cursive;
 }
+header{
+    background-image: url('../img/foto_mapa-1203808.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 
 header > h1{
+    color: var(--cor5);
     font-family: var(--fonte-maquina);
     text-align: center;
+    font-size: 1000%;
+    margin: 0px;
+    padding: 100px;
+    border: 0px;
 }
 
-header > div > h2{
+nav{
+    background-color: var(--cor4);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: var(--cor5);
     font-family: var(--fonte-maquina);
-    text-align: center;
-
+    text-align: left;
+    font-size: 150%;
 }
+
+
 
 main > h1{
 
